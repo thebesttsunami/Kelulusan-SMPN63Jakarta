@@ -1,0 +1,189 @@
+<style>
+
+/* general styling */
+
+:root {
+
+  --smaller: .75;
+
+}
+
+* {
+
+  box-sizing: border-box;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+html, body {
+
+  height: 100%;
+
+  margin: 0;
+
+}
+
+body {
+
+  margin: 70px 0;
+
+  align-items: center;
+
+  background-color: lightgray;
+
+  display: flex;
+
+  font-family: -apple-system, 
+
+    BlinkMacSystemFont, 
+
+    "Segoe UI", 
+
+    Roboto, 
+
+    Oxygen-Sans, 
+
+    Ubuntu, 
+
+    Cantarell, 
+
+    "Helvetica Neue", 
+
+    sans-serif;
+
+}
+
+input{padding:5px;margin:5px;width:80%}
+
+.container {
+
+  color: black;
+
+  margin: 0 auto;
+
+  text-align: center;
+
+}
+
+h1 {
+
+  font-weight: normal;
+
+  letter-spacing: .125rem;
+
+  text-transform: uppercase;
+
+}
+
+li {
+
+  display: inline-block;
+
+  font-size: 1em;
+
+  list-style-type: none;
+
+  padding: 0.5em;
+
+  text-transform: uppercase;
+
+}
+
+li span {
+
+  display: block;
+
+  font-size: 3.5rem;
+
+}
+
+@media all and (max-width: 768px) {
+
+  h1 {font-size: calc(1.7rem * var(--smaller));}
+
+  li {font-size: calc(1.3rem * var(--smaller));}
+
+  li span {font-size: calc(4rem * var(--smaller));}
+
+  #borderHitungMundur{width:90%}
+
+  #borderHasil{width:90%}
+
+}
+
+.tombol{
+
+	color: black;
+
+	padding: 0px 10px;
+
+	font-size: 1.2em;
+
+	background: #FFB43D;
+
+	cursor: pointer;
+
+	width: fit-content;
+
+	margin: 5px auto;
+
+}
+
+#loading{
+
+  width:100%;
+
+  height:100%;
+
+  z-index:999;
+
+  background:black;
+
+  opacity:0.5;
+
+  top:0px;
+
+  position:fixed;
+
+  text-align: center;
+
+  color:white;
+
+  display:block;
+
+}
+
+.loadingText{
+
+  position:relative;
+
+  top:70%;
+
+}
+
+.sekolah{
+
+  color:#1e7dc0;
+
+}
+
+#peringatan{
+
+	color:#f6a31f;
+
+	font-size:initial;
+
+}
+
+#cpr a{
+
+  text-decoration: none;
+
+  font-weight:bold;
+
+}
+
+</style>
